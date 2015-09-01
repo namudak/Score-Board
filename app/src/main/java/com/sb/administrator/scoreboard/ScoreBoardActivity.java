@@ -6,7 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 public class ScoreBoardActivity extends AppCompatActivity {
@@ -45,7 +44,7 @@ public class ScoreBoardActivity extends AppCompatActivity {
 
     }
 
-    Button.OnClickListener mClickListener= new View.OnClickListener() {
+    private Button.OnClickListener mClickListener= new View.OnClickListener() {
         public void onClick(View view) {
 
             // Manage multi view using one listener
